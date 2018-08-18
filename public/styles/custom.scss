@@ -4,3 +4,47 @@
 //   margin-right: 8px;
 // }
 
+.CodeMirror {
+    max-width: 100vw !important;
+    min-height: 800px !important;
+    // max-height: 100vh !important;
+    background-color: #282c34 !important;
+    color: #fff !important;
+    font-family: source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
+    // height: auto !important;
+    margin: 1rem !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    white-space: pre-wrap;
+    word-break: break-word;
+    border-top: #f7f7f7e0 20px solid;
+    border-bottom: #f7f7f7e0 20px solid;
+}
+
+.CodeMirror .cm-string, .cm-variable {
+    color: #8dc891 !important;
+}
+
+.CodeMirror .cm-property {
+    color: #FAC863 !important;
+}
+
+.CodeMirror .cm-atom {
+    color: #79b6f2 !important;
+}
+
+.CodeMirror .cm-number {
+    color: #fc929e !important;
+}
+
+.CodeMirror .cm-def {
+    color: #5FB3B3 !important;
+}
+
+.CodeMirror .cm-keyword {
+    color: #c5a5c5 !important;
+}
+
+.CodeMirror-sizer {
+    padding: 10px 0;
+}
